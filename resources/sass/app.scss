@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@import '../sass/reset.scss';
+@import '../sass/nav.scss';
+@import '../sass/search-bar.scss';
+@import '../sass/banner.scss';
+@import '../sass/info-list.scss';
+@import '../sass/footer.scss';
+@import '../sass/media-queries.scss';
+
+
+
+.bckImg {
+    background-image: url('https://expo.advance.net/img/93fa2b73cc/width960/93c_3718huntingrunrd.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

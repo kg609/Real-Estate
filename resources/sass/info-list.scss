@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    .links-list {
+
+        .links-title {
+            font-size: .9rem;
+            font-family: 'Lato', 'sans-serif';
+            font-weight: bold;
+            margin: 20px 80px;
+            letter-spacing: 1px;
+        }
+
+        li {
+            font-family: 'Lato', 'sans-serif';
+            margin: 15px 80px;
+            font-size: .85rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4C4C4C;
+        }
+
+        a:hover {
+            color: #3277DD;
+        }
+
+        .more-link {
+            color: #3277DD;
+            font-size: .75rem;
+        }
+    }
+
+}
