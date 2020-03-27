@@ -65926,41 +65926,57 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
         /*#__PURE__*/
 
         /* Desktop navbar*/
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-          id: "mainNav"
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "navbar-container"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+          id: "mainNav",
+          className: "navbar navbar-expand-lg navbar-light bg-light"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+          className: "navbar-toggler",
+          type: "button",
+          "data-toggle": "collapse",
+          "data-target": "#navbarNav",
+          "aria-controls": "navbarNav",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          className: "navbar-toggler-icon"
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "navbar-brand",
+          href: "#"
+        }, "Navbar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "collapse navbar-collapse",
+          id: "navbarNav"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: ""
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-          className: "navbar"
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Buy")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Rent")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Sell")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Mortgages")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Agent finder")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-          className: "extra-links"
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "List your rental")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Advertise")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Sign in")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "or"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Join")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-          className: "help-link"
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          href: "placeholder"
-        }, "Help"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "arrow-left"
-        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "img-container"
-        }, "Logo")))
+          className: "navbar-nav"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "",
+          href: "#"
+        }, "Buy ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "",
+          href: "#"
+        }, "Rent")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "",
+          href: "#"
+        }, "Sell")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "",
+          href: "#"
+        }, "Home Loans")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          className: ""
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "",
+          href: "#"
+        }, "Agent finder")))))))
       );
     }
   }]);
@@ -66024,7 +66040,16 @@ var SearchBar = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "HomePageImgs"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Find your way home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: {}
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Reimagine home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        style: {
+          textAlign: "center",
+          fontSize: "20px",
+          color: "#fff",
+          margin: "20px 0"
+        }
+      }, "We'll help you find a placw you'll love."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "search-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "searchForm"
@@ -66037,7 +66062,7 @@ var SearchBar = /*#__PURE__*/function (_Component) {
         className: "search-button"
       }, "Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
         className: "fa fa-search "
-      }))));
+      })))));
     }
   }]);
 
@@ -66055,7 +66080,7 @@ var SearchBar = /*#__PURE__*/function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: unmatched \"}\".\n   ╷\n67 │ }\n   │ ^\n   ╵\n  resources/sass/nav.scss 67:1  @import\n  /Users/kiwanegarner/Documents/projects/real-estate/resources/sass/app.scss 12:9                    root stylesheet\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass-loader/dist/index.js:73:7\n    at Function.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:87203:16)\n    at _render_closure1.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:76994:12)\n    at _RootZone.runBinary$3$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3500:88)\n    at _Future._completeError$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:24099:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23491:12)\n    at Object._asyncRethrow (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3256:17)\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:13326:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3279:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23512:12)\n    at _awaitOnObject_closure0.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23504:25)\n    at _RootZone.runBinary$3$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3500:88)\n    at _Future._completeError$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:24099:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23491:12)\n    at Object._asyncRethrow (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3256:17)\n    at /Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:15981:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3279:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23512:12)\n    at _awaitOnObject_closure0.call$2 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23504:25)\n    at _RootZone.runBinary$3$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25521:18)\n    at _RootZone.runBinary$3 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:25525:19)\n    at _FutureListener.handleError$1 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:23975:19)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:24271:40)\n    at Object._Future__propagateToListeners (/Users/kiwanegarner/Documents/projects/real-estate/node_modules/sass/sass.dart.js:3500:88)");
 
 /***/ }),
 

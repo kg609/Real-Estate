@@ -11037,7 +11037,6 @@ table {
 #mainNav {
   background: #fff;
   display: flex;
-  justify-content: space-evenly;
   /*border: 1px solid black;*/
 }
 
@@ -11060,7 +11059,7 @@ table {
 }
 
 #mainNav .navbar a:hover {
-  color: #00C3FF;
+  color: #2D74DC;
 }
 
 #mainNav .extra-links {
@@ -11090,7 +11089,6 @@ table {
   text-align: center;
   font-size: 3.5rem;
   letter-spacing: 1px;
-  margin: 60px 0 30px 0;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
@@ -11351,110 +11349,6 @@ table {
 /* For mobile phones: */
 
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
-  .bckImg {
-    height: 500px;
-  }
-
-  .arrow-left {
-    position: absolute;
-    top: 15px;
-    left: 5px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-right: 8px solid #0074e4;
-  }
-
-  .img-container {
-    position: static;
-    margin: 0 20px 0;
-    padding: 5px 0;
-    width: 35px;
-    height: 35px;
-  }
-
-  .img-container .desktop-logo {
-    display: none;
-  }
-
-  .img-container .mobile-logo {
-    display: block;
-    position: static;
-    top: 50px;
-  }
-
-  .img-container a {
-    position: relative;
-    left: 50px;
-    bottom: 30px;
-    color: #0074e4;
-    font-family: "Lato", sans-serif;
-    display: inline;
-    text-decoration: none;
-  }
-
-  .navbar li,
-  .extra-links li {
-    display: none;
-  }
-
-  .modal {
-    height: 100vh;
-    background: #fff;
-    opacity: 0.9;
-  }
-
-  .modal .Dropdown-menu {
-    height: 340px;
-    box-shadow: 0 -3px 3px -3px #333;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list {
-    border-top: 3px solid #0074e4;
-    width: 250px;
-    box-shadow: 0px 3px 5px 0px #d9d9d9;
-    opacity: 1;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .CTA-links {
-    background: #fff;
-    padding: 12px 15px;
-    width: 220px;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li {
-    width: 220px;
-    padding: 15px 15px;
-    border-bottom: 1px solid gray;
-    background: #ECECEC;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li .submenu-arrow {
-    float: right;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    padding: 0;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li .fa-chevron-down {
-    color: gray;
-    height: 30px;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li a {
-    text-decoration: none;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .login-links {
-    font-display: "Lato", sans-serif;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .advertise-link {
-    float: right;
-    font-display: "Lato", sans-serif;
-  }
-
   .HomePageImgs .search-container .CTA-Links li {
     font-size: 1rem;
     padding: 13px 30px;
@@ -11548,8 +11442,13 @@ table {
   }
 }
 
-.bckImg {
-  background-image: url("https://expo.advance.net/img/93fa2b73cc/width960/93c_3718huntingrunrd.jpeg");
+.container {
+  padding: 0;
+  max-width: 2000px !important;
+}
+
+.HomePageImgs {
+  background-image: url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
