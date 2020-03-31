@@ -66075,7 +66075,7 @@ var SearchBar = /*#__PURE__*/function (_Component) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "HomePageImgs"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        style: {}
+        className: "homeSearchContainer"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Reimagine home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         style: {
           textAlign: "center",
@@ -66083,7 +66083,7 @@ var SearchBar = /*#__PURE__*/function (_Component) {
           color: "#fff",
           margin: "20px 0"
         }
-      }, "We'll help you find a placw you'll love."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "We'll help you find a place you'll love."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "search-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         className: "searchForm"
@@ -66095,8 +66095,12 @@ var SearchBar = /*#__PURE__*/function (_Component) {
         type: "submit",
         className: "search-button"
       }, "Search"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "fa fa-search "
-      })))));
+        className: "fa fa-search"
+      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-arrow-down"
+      })));
     }
   }]);
 

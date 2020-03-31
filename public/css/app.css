@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -11056,10 +11056,6 @@ table {
   color: #2D74DC;
 }
 
-#navbarNav {
-  height: 100vh;
-}
-
 .extra-links {
   display: flex;
 }
@@ -11081,6 +11077,13 @@ table {
 
 .extra-links .help-link {
   margin-left: 30px;
+}
+
+.HomePageImgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .HomePageImgs h1 {
@@ -11153,6 +11156,7 @@ table {
 .HomePageImgs .search-container .searchForm input[type=text] {
   width: 100%;
   padding: 1.5rem 1.3rem;
+  border-radius: 5px;
   font-size: 1.1rem;
 }
 
@@ -11165,12 +11169,16 @@ table {
 }
 
 .HomePageImgs .search-container .searchForm .fa-search {
-  display: none;
   position: absolute;
   right: 50px;
   padding-top: 20px;
   font-size: 2rem;
   color: #4B8FE2;
+}
+
+.HomePageImgs .fa-arrow-down {
+  color: #ddd;
+  font-size: 1.5rem;
 }
 
 .banner {
@@ -11347,6 +11355,18 @@ table {
 /* For mobile phones: */
 
 @media only screen and (min-width: 400px) and (max-width: 1000px) {
+  #navbarNav {
+    height: 100vh;
+  }
+
+  .HomePageImgs .homeSearchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
   .HomePageImgs .search-container .CTA-Links li {
     font-size: 1rem;
     padding: 13px 30px;
