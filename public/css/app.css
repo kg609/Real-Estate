@@ -11181,6 +11181,20 @@ table {
   font-size: 1.5rem;
 }
 
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.banner2 p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .banner {
   display: flex;
   justify-content: flex-start;

@@ -65643,16 +65643,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Banner = function Banner() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "banner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-users fa-2x",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Be ready to buy Get pre-qualified by a local lender on zillow."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "get-started-Btn"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "placeholder"
-  }, "Get Started")));
+  return (
+    /*#__PURE__*/
+    // <section className="banner">
+    //     <i className="fa fa-users fa-2x" aria-hidden="true"></i>
+    //     <h4>Be ready to buy Get pre-qualified by a local lender on zillow.</h4>
+    //     <button className="get-started-Btn"><a href="placeholder">Get Started</a></button>
+    // </section>
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+      className: "banner2"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We have the most listings and constant updates."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      style: {
+        borderBottom: "1px solid gold",
+        paddingBottom: "50px"
+      }
+    }, "So you'll never miss out."))
+  );
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Banner);
