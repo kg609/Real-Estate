@@ -10,10 +10,23 @@ class Navbar extends React.Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="navbar-brand" href="#">Navbar</a>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <div className="">
                             <ul className="navbar-nav">
+                            <div style={{display: "flex", justifyContent: "space-between", borderBottom: "1px solid #ddd"}}>
+                                <li className="">
+                                    <a href="/zillowhome" style={{color: "#2D74DC"}}>Homepage</a>
+                                </li>
+                                <div style={{display: "flex"}}>
+                                    <li>
+                                        <a href="/login" style={{color: "#2D74DC"}}>Sign in</a>
+                                    </li>
+                                    <li>or</li>
+                                    <li>
+                                        <a href="/register" style={{color: "#2D74DC"}}>Join</a>
+                                    </li>
+                                </div>                            
+                            </div>
                             <li className="">
                                 <a className="" href="#">Buy </a>
                             </li>
@@ -28,6 +41,12 @@ class Navbar extends React.Component {
                             </li>
                             <li className="">
                                 <a className="" href="#">Agent finder</a>
+                            </li>
+                            <li className="">
+                                <a className="" href="#">Manage Rentals</a>
+                            </li>
+                            <li className="">
+                                <a className="" href="#">Advertise</a>
                             </li>
                             </ul>
                         </div>
