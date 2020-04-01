@@ -11239,6 +11239,23 @@ table {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+#infoCard .card {
+  margin-bottom: 30px;
+}
+
+#infoCard #cardBtn {
+  max-width: 150px;
+  width: 100%;
+  border: 1px solid #000;
+  color: #006aff;
+}
+
+#infoCard #cardBtn:hover {
+  background: #006aff;
+  border-color: #006aff;
+  color: #fff;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;

@@ -65560,6 +65560,17 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/images/undraw_quite_town_mg2q.png":
+/*!*****************************************************!*\
+  !*** ./resources/images/undraw_quite_town_mg2q.png ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/undraw_quite_town_mg2q.png?0976889ce87b5fc982e1796808da4363";
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -65665,6 +65676,87 @@ var Banner = function Banner() {
 
 /***/ }),
 
+/***/ "./resources/js/components/Card.js":
+/*!*****************************************!*\
+  !*** ./resources/js/components/Card.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources/images/undraw_quite_town_mg2q.png */ "./resources/images/undraw_quite_town_mg2q.png");
+/* harmony import */ var _Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+var Card = function Card() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "infoCard",
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "col-md-4 col-sm-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "card-title",
+    style: {
+      fontSize: "25px",
+      fontWeight: "bold"
+    }
+  }, "Buy a home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Find your place with an immersice photo experience and the most listings, including things you won't find anywhere else. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    id: "cardBtn",
+    href: "#",
+    className: "btn btn-light"
+  }, "Search homes")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "col-md-4 col-sm-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "card-title",
+    style: {
+      fontSize: "25px",
+      fontWeight: "bold"
+    }
+  }, "Sell a home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Whether you sell with new Zillow Offers or take another approach, we'll help you navigate the path to a successful sale.  "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    id: "cardBtn",
+    href: "#",
+    className: "btn btn-light"
+  }, "Search homes")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "col-md-4 col-sm-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _Users_kiwanegarner_Documents_projects_real_estate_resources_images_undraw_quite_town_mg2q_png__WEBPACK_IMPORTED_MODULE_1___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "card-title",
+    style: {
+      fontSize: "25px",
+      fontWeight: "bold"
+    }
+  }, "Rent a home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " We're creating a seamless online experience - from shopping online the largest rental network, to applying to paying rent. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    id: "cardBtn",
+    href: "#",
+    className: "btn btn-light"
+  }, "Find rentals")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
 /***/ "./resources/js/components/Example.js":
 /*!********************************************!*\
   !*** ./resources/js/components/Example.js ***!
@@ -65681,8 +65773,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner */ "./resources/js/components/Banner.js");
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar */ "./resources/js/components/Navbar.js");
 /* harmony import */ var _SearchBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SearchBar */ "./resources/js/components/SearchBar.js");
-/* harmony import */ var _InfoList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./InfoList */ "./resources/js/components/InfoList.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Card */ "./resources/js/components/Card.js");
+/* harmony import */ var _InfoList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./InfoList */ "./resources/js/components/InfoList.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
+
 
 
 
@@ -65694,7 +65788,7 @@ __webpack_require__.r(__webpack_exports__);
 function Example() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SearchBar__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InfoList__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SearchBar__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_InfoList__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Example);
