@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Banner from './Banner';
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';
+import Card from './Card';
 import InfoList from './InfoList';
 import Footer from './Footer';
 
@@ -12,6 +13,7 @@ function Example() {
             <Navbar />
             <SearchBar />
             <Banner />
+            <Card />
             <InfoList />
             <Footer />
         </div>

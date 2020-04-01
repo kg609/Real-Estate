@@ -1,12 +1,15 @@
 
 
 .HomePageImgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
     h1 {
         text-align: center;
         font-size: 3.5rem;
         letter-spacing: 1px;
-        margin: 60px 0 30px 0;
         color: #fff;
         font-family: 'Open Sans', sans-serif;
     }
@@ -75,17 +78,13 @@
         input[type=text] {
             width: 100%;
             padding: 1.5rem 1.3rem;
-            // border-radius: 8px;
+            border-radius: 5px;
             font-size: 1.1rem;
         }
 
         .search-button{
-            // position: absolute;
-            // top: 305px;
-            // right: 425px;
             width: 100px;
             padding: 15px 20px;
-            // border-radius: 8px;
             background: #4B8FE2;
             color: #fff;
             font-size: 1.2rem;
@@ -93,7 +92,6 @@
         }
 
         .fa-search {
-            display: none;
             position: absolute;
             right: 50px;
             padding-top: 20px;
@@ -102,6 +100,11 @@
         }
     }
 }
+
+    .fa-arrow-down {
+        color: #ddd;
+        font-size:  1.5rem;
+    }
 
 }
 
