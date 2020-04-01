@@ -1,21 +1,26 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+// .grid-container {
+//     display: grid;
+//     grid-template-columns: auto auto auto auto;
+
+#accordion {
+
+    .links-title {
+        font-family: 'Lato', 'sans-serif';
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #4C4C4C;
+    }
+
+    .fa-chevron-down {
+        color: #3277DD;
+    }
 
     .links-list {
 
-        .links-title {
-            font-size: .9rem;
-            font-family: 'Lato', 'sans-serif';
-            font-weight: bold;
-            margin: 20px 80px;
-            letter-spacing: 1px;
-        }
-
         li {
             font-family: 'Lato', 'sans-serif';
-            margin: 15px 80px;
-            font-size: .85rem;
+            padding: 10px;
+            
         }
 
         a {

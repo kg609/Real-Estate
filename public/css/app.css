@@ -11256,35 +11256,32 @@ table {
   color: #fff;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-.grid-container .links-list .links-title {
-  font-size: 0.9rem;
+#accordion .links-title {
   font-family: "Lato", "sans-serif";
   font-weight: bold;
-  margin: 20px 80px;
   letter-spacing: 1px;
+  color: #4C4C4C;
 }
 
-.grid-container .links-list li {
+#accordion .fa-chevron-down {
+  color: #3277DD;
+}
+
+#accordion .links-list li {
   font-family: "Lato", "sans-serif";
-  margin: 15px 80px;
-  font-size: 0.85rem;
+  padding: 10px;
 }
 
-.grid-container .links-list a {
+#accordion .links-list a {
   text-decoration: none;
   color: #4C4C4C;
 }
 
-.grid-container .links-list a:hover {
+#accordion .links-list a:hover {
   color: #3277DD;
 }
 
-.grid-container .links-list .more-link {
+#accordion .links-list .more-link {
   color: #3277DD;
   font-size: 0.75rem;
 }
@@ -11448,11 +11445,6 @@ table {
   .banner .get-started-Btn {
     margin: auto 10px;
     height: 50px;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
   }
 
   .footer-container,
