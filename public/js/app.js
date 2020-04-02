@@ -65866,15 +65866,11 @@ var Footer = function Footer() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "\xA9 2006-2019 Zillow"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Follow us"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://www.facebook.com/Zillow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-facebook-square fa-2x social-media-icon "
+    className: "fab fa-facebook-square fa-2x social-media-icon "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://twitter.com/zillow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-twitter-square fa-2x social-media-icon "
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://plus.google.com/+Zillow"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-google-plus-square fa-2x social-media-icon "
+    className: "fab fa-twitter-square fa-2x social-media-icon "
   })))));
 };
 
@@ -65906,13 +65902,13 @@ var InfoList = function InfoList() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header",
-    id: "headingOne"
+    id: "headingOne",
+    "data-toggle": "collapse",
+    "data-target": "#realEstateAccordion"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "mb-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "btn btn-link ",
-    "data-toggle": "collapse",
-    "data-target": "#realEstateAccordion",
+    className: "btn btn-link",
     "aria-expanded": "true",
     "aria-controls": "collapseOne"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -65945,13 +65941,13 @@ var InfoList = function InfoList() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header",
-    id: "headingTwo"
+    id: "headingTwo",
+    "data-toggle": "collapse",
+    "data-target": "#rentalsAccordion"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "mb-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-link collapsed",
-    "data-toggle": "collapse",
-    "data-target": "#rentalsAccordion",
     "aria-expanded": "false",
     "aria-controls": "collapseTwo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -65984,13 +65980,13 @@ var InfoList = function InfoList() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header",
-    id: "headingThree"
+    id: "headingThree",
+    "data-toggle": "collapse",
+    "data-target": "#mortgageRatesAccordion"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "mb-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-link collapsed",
-    "data-toggle": "collapse",
-    "data-target": "#mortgageRatesAccordion",
     "aria-expanded": "false",
     "aria-controls": "collapseThree"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -66023,13 +66019,13 @@ var InfoList = function InfoList() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header",
-    id: "headingFour"
+    id: "headingFour",
+    "data-toggle": "collapse",
+    "data-target": "#browseHomesAccordion"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "mb-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-link collapsed",
-    "data-toggle": "collapse",
-    "data-target": "#browseHomesAccordion",
     "aria-expanded": "false",
     "aria-controls": "collapseFour"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {

@@ -4,9 +4,9 @@ const InfoList = () => {
     return (
             <div id="accordion" className="row">
                 <div className="card col-lg-3 col-6" style={{padding: 0}}>
-                    <div className="card-header" id="headingOne">
+                    <div className="card-header" id="headingOne" data-toggle="collapse" data-target="#realEstateAccordion" >
                         <h5 className="mb-0">
-                            <button className="btn btn-link " data-toggle="collapse" data-target="#realEstateAccordion" aria-expanded="true" aria-controls="collapseOne">
+                            <button className="btn btn-link" aria-expanded="true" aria-controls="collapseOne">
                             <span className="links-title">Real Estate</span>
                             </button>
                             <i className="fa fa-chevron-down" ></i>
@@ -26,9 +26,9 @@ const InfoList = () => {
                     </div>
                 </div>
                 <div className="card  col-lg-3 col-6" style={{padding: 0}}>
-                    <div className="card-header" id="headingTwo">
+                    <div className="card-header" id="headingTwo" data-toggle="collapse" data-target="#rentalsAccordion" >
                         <h5 className="mb-0">
-                            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#rentalsAccordion" aria-expanded="false" aria-controls="collapseTwo">
+                            <button className="btn btn-link collapsed" aria-expanded="false" aria-controls="collapseTwo">
                                 <span className="links-title">Rentals</span>
                             </button>
                             <i className="fa fa-chevron-down" ></i>
@@ -47,9 +47,9 @@ const InfoList = () => {
                     </div>
                 </div>
                 <div className="card col-lg-3 col-6" style={{padding: 0}}>
-                    <div className="card-header" id="headingThree">
+                    <div className="card-header" id="headingThree" data-toggle="collapse" data-target="#mortgageRatesAccordion">
                         <h5 className="mb-0">
-                            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#mortgageRatesAccordion" aria-expanded="false" aria-controls="collapseThree">
+                            <button className="btn btn-link collapsed" aria-expanded="false" aria-controls="collapseThree">
                                 <span className="links-title">Mortgage Rates</span>
                             </button>
                             <i className="fa fa-chevron-down" ></i>
@@ -68,9 +68,9 @@ const InfoList = () => {
                     </div>
                 </div>           
                 <div className="card col-lg-3 col-6" style={{padding: 0}}>
-                    <div className="card-header" id="headingFour">
+                    <div className="card-header" id="headingFour" data-toggle="collapse" data-target="#browseHomesAccordion">
                         <h5 className="mb-0">
-                            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#browseHomesAccordion" aria-expanded="false" aria-controls="collapseFour">
+                            <button className="btn btn-link collapsed" aria-expanded="false" aria-controls="collapseFour">
                                 <span className="links-title">Browse Homes</span>
                             </button>
                             <i className="fa fa-chevron-down" ></i>

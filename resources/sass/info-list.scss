@@ -13,6 +13,8 @@
 
     .fa-chevron-down {
         color: #3277DD;
+        float: right;
+        padding: 10px;
     }
 
     .links-list {
@@ -25,17 +27,22 @@
 
         a {
             text-decoration: none;
-            color: #4C4C4C;
-        }
-
-        a:hover {
+            // color: #4C4C4C;
             color: #3277DD;
         }
+
+        // a:hover {
+        //     color: #3277DD;
+        // }
 
         .more-link {
             color: #3277DD;
             font-size: .75rem;
         }
     }
+}
 
+#headingOne, #headingTwo, 
+#headingThree,  #headingFour {
+    cursor: pointer;
 }

@@ -11265,6 +11265,8 @@ table {
 
 #accordion .fa-chevron-down {
   color: #3277DD;
+  float: right;
+  padding: 10px;
 }
 
 #accordion .links-list li {
@@ -11274,16 +11276,19 @@ table {
 
 #accordion .links-list a {
   text-decoration: none;
-  color: #4C4C4C;
-}
-
-#accordion .links-list a:hover {
   color: #3277DD;
 }
 
 #accordion .links-list .more-link {
   color: #3277DD;
   font-size: 0.75rem;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour {
+  cursor: pointer;
 }
 
 .footer-container {
