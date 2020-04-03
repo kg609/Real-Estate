@@ -1,4 +1,5 @@
 import React from 'react';
+import  zillowLogo from '/Users/kiwanegarner/Documents/projects/real-estate/resources/images/zillow-logo.png';
 
 class Navbar extends React.Component {
     
@@ -11,9 +12,8 @@ class Navbar extends React.Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <div className="">
                             <ul className="navbar-nav">
-                            <div style={{display: "flex", justifyContent: "space-between", borderBottom: "1px solid #ddd"}}>
+                            <div id="mobileLinks" >
                                 <li className="">
                                     <a href="/zillowhome" style={{color: "#2D74DC"}}>Homepage</a>
                                 </li>
@@ -27,29 +27,35 @@ class Navbar extends React.Component {
                                     </li>
                                 </div>                            
                             </div>
-                            <li className="">
-                                <a className="" href="#">Buy </a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Rent</a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Sell</a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Home Loans</a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Agent finder</a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Manage Rentals</a>
-                            </li>
-                            <li className="">
-                                <a className="" href="#">Advertise</a>
-                            </li>
+                            <div id="leftNav">
+                                <li className="">
+                                    <a className="" href="#">Buy </a>
+                                </li>
+                                <li className="">
+                                    <a className="" href="#">Rent</a>
+                                </li>
+                                <li className="">
+                                    <a className="" href="#">Sell</a>
+                                </li>
+                                <li className="">
+                                    <a className="" href="#">Home Loans</a>
+                                </li>
+                                <li className="">
+                                    <a className="" href="#">Agent finder</a>
+                                </li>
+                            </div>
+                            <div id="logoContainer">
+                                <img src={zillowLogo} alt="Zillow Logo" />
+                            </div>
+                            <div id="rightNav">
+                                <li>
+                                    <a className="" href="#">Manage Rentals</a>
+                                </li>
+                                <li className="">
+                                    <a className="" href="#">Advertise</a>
+                                </li>
+                            </div>
                             </ul>
-                        </div>
                     </div>
                 </nav>
             </div>      

@@ -37,6 +37,30 @@
         a:hover {
             color: #2D74DC;
         }
+
+        #navbarNav {
+            justify-content: center;
+
+            .navbar-nav{
+                width: 100%;
+            }
+        }
+
+        #mobileLinks {
+            display: none;
+        }
+
+        #leftNav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #rightNav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
     }
 
 
