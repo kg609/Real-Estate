@@ -11037,14 +11037,12 @@ table {
 #mainNav {
   background: #fff;
   display: flex;
-  /*border: 1px solid black;*/
 }
 
 #mainNav li {
   padding: 15px 5px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  letter-spacing: 1px;
 }
 
 #mainNav a {
@@ -11156,7 +11154,7 @@ table {
 
 .HomePageImgs .search-container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .HomePageImgs .search-container .searchForm {
@@ -11194,7 +11192,10 @@ table {
 
 .HomePageImgs .search-container .searchForm .fa-search {
   position: absolute;
-  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  margin-left: 60px;
   padding-top: 20px;
   font-size: 2rem;
   color: #4B8FE2;
@@ -11411,7 +11412,7 @@ table {
 
 /* For mobile phones: */
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   #navbarNav {
     height: 100vh;
   }
@@ -11463,15 +11464,6 @@ table {
     display: none;
   }
 
-  .HomePageImgs .search-container .searchForm .fa-search {
-    display: block;
-    position: absolute;
-    right: 50px;
-    padding-top: 20px;
-    font-size: 2rem;
-    color: #4B8FE2;
-  }
-
   .banner h4 {
     margin: auto;
     font-size: 1rem;
@@ -11488,7 +11480,7 @@ table {
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 670px) {
+@media only screen and (max-width: 630px) {
   /* For tablets: */
 
   .HomePageImgs .search-container .searchForm .search-button {
@@ -11502,19 +11494,9 @@ table {
     color: #fff;
     font-size: 1.2rem;
   }
-}
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-}
-
-@media only screen and (max-width: 1250px) {
-  .img-container {
-    left: 80px;
-  }
-
-  #mainNav .navbar {
-    margin-left: 150px;
+  .HomePageImgs .search-container .searchForm .fa-search {
+    width: 50%;
   }
 }
 
