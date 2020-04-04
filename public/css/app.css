@@ -11040,7 +11040,7 @@ table {
 }
 
 #mainNav li {
-  padding: 15px 5px;
+  padding: 15px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
 }
@@ -11498,6 +11498,10 @@ table {
   .HomePageImgs .search-container .searchForm .fa-search {
     width: 50%;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {

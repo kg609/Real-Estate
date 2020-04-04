@@ -20,6 +20,9 @@
 @import '../sass/footer.scss';
 @import '../sass/media-queries.scss';
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .container {
     padding: 0;
