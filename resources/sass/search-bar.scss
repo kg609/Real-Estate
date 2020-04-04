@@ -55,7 +55,7 @@
     .search-container {
         // border: 1px solid #000;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
 
     .searchForm {
         display: flex;
@@ -87,13 +87,15 @@
             padding: 15px 20px;
             background: #4B8FE2;
             color: #fff;
-            font-size: 1.2rem;
-            
+            font-size: 1.2rem;          
         }
 
         .fa-search {
             position: absolute;
-            right: 50px;
+            display: flex;
+            justify-content: flex-end;
+            width: 30%;
+            margin-left: 60px;
             padding-top: 20px;
             font-size: 2rem;
             color: #4B8FE2;

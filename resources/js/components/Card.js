@@ -39,7 +39,7 @@ const Card = () => {
                     <img src={House}  />
                     <div className="card-body">
                         <h3 className="card-title" style={{fontSize: "25px", fontWeight:"bold"}}>Rent a home</h3>
-                           <p> We're creating a seamless online experience - from shopping online
+                           <p> We're creating a seamless online experience - from shopping on
                                the largest rental network, to applying to paying rent. </p>
                             <br />
                             <a  id="cardBtn" href="#" className="btn btn-light" >

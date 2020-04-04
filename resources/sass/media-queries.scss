@@ -1,8 +1,14 @@
 /* For mobile phones: */
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 
     #navbarNav {
         height: 100vh;
+
+        .mobileLinks {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
     }
 
     .HomePageImgs {
@@ -52,15 +58,7 @@
                 .search-button {
                     display: none;
                 }
-    
-                .fa-search {
-                    display: block;
-                    position: absolute;
-                    right: 50px;
-                    padding-top: 20px;
-                    font-size: 2rem;
-                    color: #4B8FE2;
-                }
+
             }
 
         }
@@ -77,19 +75,19 @@
         height: 50px;
     }
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
+    // .grid-container {
+    //     display: grid;
+    //     grid-template-columns: auto auto;
+    // }
 
     .footer-container, footer {
         height: 300px;
     }
   }
   
-  @media only screen and (max-width: 768px) and (min-width: 670px) {
+  @media only screen and (max-width: 630px) {
     /* For tablets: */
-    .HomePageImgs .search-container .searchForm .search-button{
+    .HomePageImgs .search-container .searchForm .search-button {
         position: absolute;
         top: 335px;
         right: 100px;
@@ -101,20 +99,10 @@
         font-size: 1.2rem;
         
     }
+
+    .HomePageImgs .search-container .searchForm .fa-search {
+        width: 50%;
+    }
     
   }
   
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    
-  }
-
-  @media only screen and (max-width: 1250px) {
-    .img-container {
-        left: 80px;
-    }
-
-    #mainNav .navbar {
-        margin-left: 150px;
-    }
-  }

@@ -11037,14 +11037,12 @@ table {
 #mainNav {
   background: #fff;
   display: flex;
-  /*border: 1px solid black;*/
 }
 
 #mainNav li {
-  padding: 15px 5px;
+  padding: 15px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  letter-spacing: 1px;
 }
 
 #mainNav a {
@@ -11054,6 +11052,30 @@ table {
 
 #mainNav a:hover {
   color: #2D74DC;
+}
+
+#mainNav #navbarNav {
+  justify-content: center;
+}
+
+#mainNav #navbarNav .navbar-nav {
+  width: 100%;
+}
+
+#mainNav #mobileLinks {
+  display: none;
+}
+
+#mainNav #leftNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#mainNav #rightNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .extra-links {
@@ -11132,7 +11154,7 @@ table {
 
 .HomePageImgs .search-container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .HomePageImgs .search-container .searchForm {
@@ -11170,7 +11192,10 @@ table {
 
 .HomePageImgs .search-container .searchForm .fa-search {
   position: absolute;
-  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  margin-left: 60px;
   padding-top: 20px;
   font-size: 2rem;
   color: #4B8FE2;
@@ -11256,37 +11281,39 @@ table {
   color: #fff;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-}
-
-.grid-container .links-list .links-title {
-  font-size: 0.9rem;
+#accordion .links-title {
   font-family: "Lato", "sans-serif";
   font-weight: bold;
-  margin: 20px 80px;
   letter-spacing: 1px;
-}
-
-.grid-container .links-list li {
-  font-family: "Lato", "sans-serif";
-  margin: 15px 80px;
-  font-size: 0.85rem;
-}
-
-.grid-container .links-list a {
-  text-decoration: none;
   color: #4C4C4C;
 }
 
-.grid-container .links-list a:hover {
+#accordion .fa-chevron-down {
+  color: #3277DD;
+  float: right;
+  padding: 10px;
+}
+
+#accordion .links-list li {
+  font-family: "Lato", "sans-serif";
+  padding: 10px;
+}
+
+#accordion .links-list a {
+  text-decoration: none;
   color: #3277DD;
 }
 
-.grid-container .links-list .more-link {
+#accordion .links-list .more-link {
   color: #3277DD;
   font-size: 0.75rem;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour {
+  cursor: pointer;
 }
 
 .footer-container {
@@ -11385,9 +11412,15 @@ table {
 
 /* For mobile phones: */
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   #navbarNav {
     height: 100vh;
+  }
+
+  #navbarNav .mobileLinks {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
   }
 
   .HomePageImgs .homeSearchContainer {
@@ -11431,15 +11464,6 @@ table {
     display: none;
   }
 
-  .HomePageImgs .search-container .searchForm .fa-search {
-    display: block;
-    position: absolute;
-    right: 50px;
-    padding-top: 20px;
-    font-size: 2rem;
-    color: #4B8FE2;
-  }
-
   .banner h4 {
     margin: auto;
     font-size: 1rem;
@@ -11450,18 +11474,13 @@ table {
     height: 50px;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
   .footer-container,
   footer {
     height: 300px;
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 670px) {
+@media only screen and (max-width: 630px) {
   /* For tablets: */
 
   .HomePageImgs .search-container .searchForm .search-button {
@@ -11475,20 +11494,14 @@ table {
     color: #fff;
     font-size: 1.2rem;
   }
+
+  .HomePageImgs .search-container .searchForm .fa-search {
+    width: 50%;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-}
-
-@media only screen and (max-width: 1250px) {
-  .img-container {
-    left: 80px;
-  }
-
-  #mainNav .navbar {
-    margin-left: 150px;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
