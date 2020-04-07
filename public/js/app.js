@@ -65665,22 +65665,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Banner = function Banner() {
-  return (
-    /*#__PURE__*/
-    // <section className="banner">
-    //     <i className="fa fa-users fa-2x" aria-hidden="true"></i>
-    //     <h4>Be ready to buy Get pre-qualified by a local lender on zillow.</h4>
-    //     <button className="get-started-Btn"><a href="placeholder">Get Started</a></button>
-    // </section>
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-      className: "banner2"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We have the most listings and constant updates."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      style: {
-        borderBottom: "1px solid gold",
-        paddingBottom: "50px"
-      }
-    }, "So you'll never miss out."))
-  );
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "banner2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "We have the most listings and constant updates."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      borderBottom: "1px solid gold",
+      paddingBottom: "50px"
+    }
+  }, "So you'll never miss out."));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Banner);
@@ -66281,13 +66273,34 @@ var SearchBar = /*#__PURE__*/function (_Component) {
 
   var _super = _createSuper(SearchBar);
 
-  function SearchBar() {
+  function SearchBar(props) {
+    var _this;
+
     _classCallCheck(this, SearchBar);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this, props);
+    _this.state = {
+      searchInfo: ""
+    };
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
+    return _this;
   }
 
   _createClass(SearchBar, [{
+    key: "handleChange",
+    value: function handleChange(event) {
+      this.setState({
+        searchInfo: event.target.value
+      });
+    }
+  }, {
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      alert("This was the info submitted: " + this.state.searchInfo);
+      event.preventDefault();
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -66308,9 +66321,11 @@ var SearchBar = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "text",
         placeholder: "Enter an address neighborhood, city, or ZIP code",
-        name: "search"
+        name: "search",
+        onChange: this.handleChange
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "fa fa-search"
+        className: "fa fa-search",
+        onClick: this.handleSubmit
       })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#infoCard"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
