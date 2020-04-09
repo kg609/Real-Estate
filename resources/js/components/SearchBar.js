@@ -1,6 +1,22 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {searchInfo: ""};
+    
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+      }
+    
+      handleChange(event) {
+        this.setState({searchInfo: event.target.value});
+      }
+    
+      handleSubmit(event) {
+        alert("This was the info submitted: " + this.state.searchInfo);
+        event.preventDefault();
+      }
     
     render(){
         return (
@@ -10,9 +26,8 @@ class SearchBar extends Component {
                     <p style={{textAlign: "center", fontSize: "20px", color: "#fff", margin: "20px 0"}}>We'll help you find a place you'll love.</p>
                     <div className="search-container">
                         <form className="searchForm">
-                            <input type="text" placeholder="Enter an address neighborhood, city, or ZIP code" name="search"/>
-                            {/* <button type="submit" className="search-button">Search</button> */}
-                            <i className="fa fa-search"></i>
+                            <input type="text" placeholder="Enter an address neighborhood, city, or ZIP code" name="search" onChange={this.handleChange} />
+                            <i className="fa fa-search" onClick={this.handleSubmit}></i>
                         </form>
                     </div>
                 </div>
