@@ -8,7 +8,7 @@ class CreateHomesTable extends Migration
 {
     /**
      * Run the migrations.
-     *
+     * Used to Tables and/or columns to a databaase
      * @return void
      */
     public function up()
@@ -17,19 +17,23 @@ class CreateHomesTable extends Migration
             $table->id();
             $table->string('type');
             $table->string('address');
-            $table->string('price');
-            $table->string('zipcode');
+            $table->float('price', 8, 2);
+            $table->integer('zipcode');
+            $table->string('imageUrl');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
+     * Used to drop tables and/or columns from database
      *
      * @return void
      */
     public function down()
     {
-        Schema::dropIfExists('homes');
+        // Schema::dropIfExists('homes');
+        // Schema::drop('price');
+        // Schema::drop('zipcode');
     }
 }
