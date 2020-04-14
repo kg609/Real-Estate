@@ -76,6 +76,8 @@
                             <a href="{{ route('register') }}">Register</a>
                         @endif
                     @endauth
+
+                    <a href="{{ route('zillowhome') }}"> Zillow Website</a>
                 </div>
             @endif
 
