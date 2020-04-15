@@ -49,7 +49,7 @@ class Navbar extends React.Component {
                                 </div>
                                 <div id="rightNav">
                                 <li>
-                                    <a className="" href="#">Manage Rentals</a>
+                                    <a className="" href="/manage-rentals">Manage Rentals</a>
                                 </li>
                                 <li className="">
                                     <a className="" href="#">Advertise</a>
