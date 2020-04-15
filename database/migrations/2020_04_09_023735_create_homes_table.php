@@ -32,7 +32,7 @@ class CreateHomesTable extends Migration
      */
     public function down()
     {
-        // Schema::dropIfExists('homes');
+        Schema::dropIfExists('homes');
         // Schema::drop('price');
         // Schema::drop('zipcode');
     }
