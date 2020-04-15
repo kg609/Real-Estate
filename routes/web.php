@@ -22,7 +22,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Zillow home page route
-Route::get('/zillowhome',  'ZillowHomeController@show')->name('zillowhome');
+Route::get('/zillow',  'ZillowHomeController@show')->name('zillowhome');
 
 // Zillow rental management page route
-Route::get('/manage-rentals',  'ManageRentalsController@show')->name('manage-rentals');
+Route::get('/manage-rentals',  'ManageRentalsController@show')->name('manageRentals');

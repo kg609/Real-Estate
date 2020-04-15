@@ -66199,7 +66199,7 @@ var Navbar = /*#__PURE__*/function (_React$Component) {
           id: "rightNav"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
           className: "",
-          href: "#"
+          href: "/manage-rentals"
         }, "Manage Rentals")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
           className: ""
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {

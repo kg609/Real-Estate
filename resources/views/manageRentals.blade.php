@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title> Zillow </title>
+        <title> Zillow | Mangage Rentals </title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,7 +12,7 @@
     </head>
     <body>
 
-     <div id="example"></div>
+     <h1>Manage Rentals Page</h1>
 
      <script src="/js/app.js"></script>
     </body>
