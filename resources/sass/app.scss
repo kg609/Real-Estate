@@ -1,6 +1,9 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+// Font Awesome Icons
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
 // Variables
 @import 'variables';
 
@@ -12,14 +15,22 @@
 @import '../sass/nav.scss';
 @import '../sass/search-bar.scss';
 @import '../sass/banner.scss';
+@import '../sass/card.scss';
 @import '../sass/info-list.scss';
 @import '../sass/footer.scss';
 @import '../sass/media-queries.scss';
 
+html {
+    scroll-behavior: smooth;
+  }
 
+.container {
+    padding: 0;
+    max-width: 2000px !important;
+}
 
-.bckImg {
-    background-image: url('https://expo.advance.net/img/93fa2b73cc/width960/93c_3718huntingrunrd.jpeg');
+.HomePageImgs {
+    background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

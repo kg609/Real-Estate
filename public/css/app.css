@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -11037,60 +11037,81 @@ table {
 #mainNav {
   background: #fff;
   display: flex;
-  justify-content: space-evenly;
-  /*border: 1px solid black;*/
 }
 
-#mainNav .navbar {
-  display: flex;
-  /*border: 1px solid blue;*/
-  margin-left: 40px;
-}
-
-#mainNav .navbar li {
-  padding: 15px 5px;
+#mainNav li {
+  padding: 15px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  letter-spacing: 1px;
 }
 
-#mainNav .navbar a {
+#mainNav a {
   text-decoration: none;
   color: #4C4C4C;
 }
 
-#mainNav .navbar a:hover {
-  color: #00C3FF;
+#mainNav a:hover {
+  color: #2D74DC;
 }
 
-#mainNav .extra-links {
+#mainNav #navbarNav {
+  justify-content: center;
+}
+
+#mainNav #navbarNav .navbar-nav {
+  width: 100%;
+}
+
+#mainNav #mobileLinks {
+  display: none;
+}
+
+#mainNav #leftNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#mainNav #rightNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.extra-links {
   display: flex;
 }
 
-#mainNav .extra-links li {
+.extra-links li {
   padding: 16px 3px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
 }
 
-#mainNav .extra-links li a {
+.extra-links li a {
   color: #2D74DC;
   text-decoration: none;
 }
 
-#mainNav .extra-links a:hover {
+.extra-links a:hover {
   color: #00C3FF;
 }
 
-#mainNav .extra-links .help-link {
+.extra-links .help-link {
   margin-left: 30px;
+}
+
+.HomePageImgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .HomePageImgs h1 {
   text-align: center;
   font-size: 3.5rem;
   letter-spacing: 1px;
-  margin: 60px 0 30px 0;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
@@ -11133,7 +11154,7 @@ table {
 
 .HomePageImgs .search-container {
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .HomePageImgs .search-container .searchForm {
@@ -11157,6 +11178,7 @@ table {
 .HomePageImgs .search-container .searchForm input[type=text] {
   width: 100%;
   padding: 1.5rem 1.3rem;
+  border-radius: 5px;
   font-size: 1.1rem;
 }
 
@@ -11169,12 +11191,33 @@ table {
 }
 
 .HomePageImgs .search-container .searchForm .fa-search {
-  display: none;
   position: absolute;
-  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  margin-left: 60px;
   padding-top: 20px;
   font-size: 2rem;
   color: #4B8FE2;
+}
+
+.HomePageImgs .fa-arrow-down {
+  color: #ddd;
+  font-size: 1.5rem;
+}
+
+.banner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.banner2 p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .banner {
@@ -11221,37 +11264,56 @@ table {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+#infoCard .card {
+  margin-bottom: 30px;
 }
 
-.grid-container .links-list .links-title {
-  font-size: 0.9rem;
+#infoCard #cardBtn {
+  max-width: 150px;
+  width: 100%;
+  border: 1px solid #000;
+  color: #006aff;
+}
+
+#infoCard #cardBtn:hover {
+  background: #006aff;
+  border-color: #006aff;
+  color: #fff;
+}
+
+#accordion .links-title {
   font-family: "Lato", "sans-serif";
   font-weight: bold;
-  margin: 20px 80px;
   letter-spacing: 1px;
-}
-
-.grid-container .links-list li {
-  font-family: "Lato", "sans-serif";
-  margin: 15px 80px;
-  font-size: 0.85rem;
-}
-
-.grid-container .links-list a {
-  text-decoration: none;
   color: #4C4C4C;
 }
 
-.grid-container .links-list a:hover {
+#accordion .fa-chevron-down {
+  color: #3277DD;
+  float: right;
+  padding: 10px;
+}
+
+#accordion .links-list li {
+  font-family: "Lato", "sans-serif";
+  padding: 10px;
+}
+
+#accordion .links-list a {
+  text-decoration: none;
   color: #3277DD;
 }
 
-.grid-container .links-list .more-link {
+#accordion .links-list .more-link {
   color: #3277DD;
   font-size: 0.75rem;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour {
+  cursor: pointer;
 }
 
 .footer-container {
@@ -11350,109 +11412,23 @@ table {
 
 /* For mobile phones: */
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
-  .bckImg {
-    height: 500px;
-  }
-
-  .arrow-left {
-    position: absolute;
-    top: 15px;
-    left: 5px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-right: 8px solid #0074e4;
-  }
-
-  .img-container {
-    position: static;
-    margin: 0 20px 0;
-    padding: 5px 0;
-    width: 35px;
-    height: 35px;
-  }
-
-  .img-container .desktop-logo {
-    display: none;
-  }
-
-  .img-container .mobile-logo {
-    display: block;
-    position: static;
-    top: 50px;
-  }
-
-  .img-container a {
-    position: relative;
-    left: 50px;
-    bottom: 30px;
-    color: #0074e4;
-    font-family: "Lato", sans-serif;
-    display: inline;
-    text-decoration: none;
-  }
-
-  .navbar li,
-  .extra-links li {
-    display: none;
-  }
-
-  .modal {
+@media only screen and (max-width: 1000px) {
+  #navbarNav {
     height: 100vh;
-    background: #fff;
-    opacity: 0.9;
   }
 
-  .modal .Dropdown-menu {
-    height: 340px;
-    box-shadow: 0 -3px 3px -3px #333;
+  #navbarNav .mobileLinks {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
   }
 
-  .modal .Dropdown-menu .Dropdown-list {
-    border-top: 3px solid #0074e4;
-    width: 250px;
-    box-shadow: 0px 3px 5px 0px #d9d9d9;
-    opacity: 1;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .CTA-links {
-    background: #fff;
-    padding: 12px 15px;
-    width: 220px;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li {
-    width: 220px;
-    padding: 15px 15px;
-    border-bottom: 1px solid gray;
-    background: #ECECEC;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li .submenu-arrow {
-    float: right;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
-    padding: 0;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li .fa-chevron-down {
-    color: gray;
-    height: 30px;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list li a {
-    text-decoration: none;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .login-links {
-    font-display: "Lato", sans-serif;
-  }
-
-  .modal .Dropdown-menu .Dropdown-list .advertise-link {
-    float: right;
-    font-display: "Lato", sans-serif;
+  .HomePageImgs .homeSearchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
   }
 
   .HomePageImgs .search-container .CTA-Links li {
@@ -11488,15 +11464,6 @@ table {
     display: none;
   }
 
-  .HomePageImgs .search-container .searchForm .fa-search {
-    display: block;
-    position: absolute;
-    right: 50px;
-    padding-top: 20px;
-    font-size: 2rem;
-    color: #4B8FE2;
-  }
-
   .banner h4 {
     margin: auto;
     font-size: 1rem;
@@ -11507,18 +11474,13 @@ table {
     height: 50px;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
   .footer-container,
   footer {
     height: 300px;
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 670px) {
+@media only screen and (max-width: 630px) {
   /* For tablets: */
 
   .HomePageImgs .search-container .searchForm .search-button {
@@ -11532,24 +11494,23 @@ table {
     color: #fff;
     font-size: 1.2rem;
   }
-}
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-}
-
-@media only screen and (max-width: 1250px) {
-  .img-container {
-    left: 80px;
-  }
-
-  #mainNav .navbar {
-    margin-left: 150px;
+  .HomePageImgs .search-container .searchForm .fa-search {
+    width: 50%;
   }
 }
 
-.bckImg {
-  background-image: url("https://expo.advance.net/img/93fa2b73cc/width960/93c_3718huntingrunrd.jpeg");
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0;
+  max-width: 2000px !important;
+}
+
+.HomePageImgs {
+  background-image: url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

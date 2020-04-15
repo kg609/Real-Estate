@@ -1,0 +1,20 @@
+#infoCard {
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    #cardBtn {
+        max-width: 150px;
+        width: 100%;
+        border: 1px solid #000;
+        color: rgb(0, 106, 255);
+
+
+        &:hover {
+            background: rgb(0, 106, 255);
+            border-color: rgb(0, 106, 255);
+            color:  #fff;;
+        }
+    }
+}
