@@ -85,3 +85,24 @@
         }
     }    
 
+
+#secondaryNav {
+    margin-bottom: 15px;
+    
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .secondaryLeftMenu {
+        display: flex;
+    }
+
+    .secondaryRightMenu {
+        display: flex;
+
+        li .fa-bell {
+            padding-top: 5px;
+            font-size: 1.5rem;
+        }
+    }
+}

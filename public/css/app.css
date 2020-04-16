@@ -11410,6 +11410,110 @@ table {
   color: orangered;
 }
 
+.img-container {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 98px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.img-container .mobile-logo {
+  display: none;
+}
+
+#mainNav {
+  background: #fff;
+  display: flex;
+}
+
+#mainNav li {
+  padding: 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+#mainNav a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+#mainNav a:hover {
+  color: #2D74DC;
+}
+
+#mainNav #navbarNav {
+  justify-content: center;
+}
+
+#mainNav #navbarNav .navbar-nav {
+  width: 100%;
+}
+
+#mainNav #mobileLinks {
+  display: none;
+}
+
+#mainNav #leftNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#mainNav #rightNav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.extra-links {
+  display: flex;
+}
+
+.extra-links li {
+  padding: 16px 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.extra-links li a {
+  color: #2D74DC;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  color: #00C3FF;
+}
+
+.extra-links .help-link {
+  margin-left: 30px;
+}
+
+#secondaryNav {
+  margin-bottom: 15px;
+}
+
+#secondaryNav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#secondaryNav .secondaryLeftMenu {
+  display: flex;
+}
+
+#secondaryNav .secondaryRightMenu {
+  display: flex;
+}
+
+#secondaryNav .secondaryRightMenu li .fa-bell {
+  padding-top: 5px;
+  font-size: 1.5rem;
+}
+
 /* For mobile phones: */
 
 @media only screen and (max-width: 1000px) {
