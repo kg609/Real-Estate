@@ -80,7 +80,33 @@
      </header>
 
     <div class="row">
-         <img src="https://live.staticflickr.com/126/421729935_a4330fffba_b.jpg" alt="kitchen image" style="width: 100%; height: 75vh">
+         <div class="promoImage text-center">
+             <div>
+                <h1>Zillow Rental Manager</h2>
+                <p>The simplest way to manage your rental</p>
+                <button class="zillowBtn">View your properties</button>
+            </div>
+         </div>
+    </div>
+
+    <div class="row" style="padding: 100px 0;">
+        <div id="divListYourProperty" class="col-sm">
+            <h2>List your property</h2>
+            <p>
+            Whether you manage one or many properties, we have the easy-to-use tools to help you find your perfect renter. 
+            Plus, when you list your property, you can accept rental applications for free to quickly screen prospective tenants. Learn more
+            </p>
+            <p>
+                <smalll>
+                    Manage a large apartment community?
+                    Learn more about advertising
+                </small>
+            </p>
+            <button>Create a listing</button>
+        </div>
+
+        <div id="divListYourPropertyImg" class="col-sm">
+        </div>
     </div>
 
      <script src="/js/app.js"></script>

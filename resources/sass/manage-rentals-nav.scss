@@ -106,3 +106,44 @@
         }
     }
 }
+
+.promoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+
+    h1 {
+        color: #fff;
+        font-size: 3.5rem;
+    }
+
+    p {
+        color: #fff;
+        font-size:  1.5rem;
+    }
+
+    .zillowBtn {
+        padding: 10px;
+        max-width: 250px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divListYourPropertyImg {
+    background-image: url('../images/undraw_note_list_etto-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

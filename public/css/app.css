@@ -10894,13 +10894,6 @@ span,
 applet,
 object,
 iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
 blockquote,
 pre,
 a,
@@ -11514,6 +11507,48 @@ table {
   font-size: 1.5rem;
 }
 
+.promoImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+}
+
+.promoImage h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.promoImage p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.promoImage .zillowBtn {
+  padding: 10px;
+  max-width: 250px;
+  width: 100%;
+  color: #fff;
+  background: #006aff;
+  border-color: #006aff;
+}
+
+.promoImage .zillowBtn:hover {
+  background: #fff;
+  border-color: #006aff;
+  color: #006aff;
+}
+
+#divListYourPropertyImg {
+  background-image: url(/images/undraw_note_list_etto-svg.jpg?fb8cd740caedd483647ed61f77fb4cfa);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* For mobile phones: */
 
 @media only screen and (max-width: 1000px) {
@@ -11619,5 +11654,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.row {
+  margin: 0;
 }
 
