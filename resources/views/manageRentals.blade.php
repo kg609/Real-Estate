@@ -81,7 +81,7 @@
 
     <div class="row">
          <div class="promoImage text-center">
-             <div>
+             <div class="overlay">
                 <h1>Zillow Rental Manager</h2>
                 <p>The simplest way to manage your rental</p>
                 <button class="zillowBtn">View your properties</button>
@@ -94,18 +94,46 @@
             <h2>List your property</h2>
             <p>
             Whether you manage one or many properties, we have the easy-to-use tools to help you find your perfect renter. 
-            Plus, when you list your property, you can accept rental applications for free to quickly screen prospective tenants. Learn more
+            Plus, when you list your property, you can accept rental applications for free to quickly screen prospective tenants. <a href="#">Learn more</a>
             </p>
             <p>
                 <smalll>
-                    Manage a large apartment community?
-                    Learn more about advertising
+                    Manage a large apartment community? <br />
+                    <a href="#">Learn more about advertising</a>
                 </small>
             </p>
             <button>Create a listing</button>
         </div>
 
         <div id="divListYourPropertyImg" class="col-sm">
+        </div>
+    </div>
+
+    <div class="row" style="padding: 100px 0;">
+        <div id="divManageApplicationsImg" class="col-sm">
+        </div>
+
+        <div id="divManageApplications" class="col-sm">
+            <h2>Manage applications and screen tenants</h2>
+            <p>
+            Save time with online rental applications and tenant screening, including criminal and eviction checks, 
+            credit reports and more. <a href="#">Learn more</a>
+            </p>
+            <button>Accept applications</button>
+        </div>    
+    </div>
+
+    <div class="row" style="padding: 100px 0;">       
+        <div id="divStreamlinePayments" class="col-sm">
+            <h2>Streamline your payements</h2>
+            <p>
+            Get rent payments, utility payments and security deposits sent directly to your bank account, for all of your units, 
+            and easily keep track of those payments in one place. <a href="#">Learn more</a>
+            </p>
+            <button>Collect rent online</button>
+        </div>
+
+        <div id="divStreamlinePaymentsImg" class="col-sm">
         </div>
     </div>
 

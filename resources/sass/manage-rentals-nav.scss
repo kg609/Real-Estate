@@ -117,6 +117,22 @@
     height: 70vh;
     width: 100vw;
 
+.overlay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);  /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
     h1 {
         color: #fff;
         font-size: 3.5rem;
@@ -142,8 +158,75 @@
     }
 }
 
+#divListYourProperty {
+    
+    button {
+        padding: 10px;
+        max-width: 150px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
 #divListYourPropertyImg {
     background-image: url('../images/undraw_note_list_etto-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#divManageApplications {
+    
+    button {
+        padding: 10px;
+        max-width: 150px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divManageApplicationsImg {
+    background-image: url('../images/undraw_co-workers_ujs6-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#divStreamlinePayments {
+    
+    button {
+        padding: 10px;
+        max-width: 150px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divStreamlinePaymentsImg {
+    background-image: url('../images/undraw_personal_finance_tqcd-svg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

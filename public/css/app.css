@@ -11518,6 +11518,23 @@ table {
   width: 100vw;
 }
 
+.promoImage .overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 70vh;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
 .promoImage h1 {
   color: #fff;
   font-size: 3.5rem;
@@ -11543,8 +11560,68 @@ table {
   color: #006aff;
 }
 
+#divListYourProperty button {
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  color: #fff;
+  background: #006aff;
+  border-color: #006aff;
+  border-radius: 3px;
+}
+
+#divListYourProperty button:hover {
+  background: #fff;
+  border-color: #006aff;
+  color: #006aff;
+}
+
 #divListYourPropertyImg {
   background-image: url(/images/undraw_note_list_etto-svg.jpg?fb8cd740caedd483647ed61f77fb4cfa);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divManageApplications button {
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  color: #fff;
+  background: #006aff;
+  border-color: #006aff;
+  border-radius: 3px;
+}
+
+#divManageApplications button:hover {
+  background: #fff;
+  border-color: #006aff;
+  color: #006aff;
+}
+
+#divManageApplicationsImg {
+  background-image: url(/images/undraw_co-workers_ujs6-svg.jpg?6ffbe02033f7317bf059d39c32479358);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#divStreamlinePayments button {
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  color: #fff;
+  background: #006aff;
+  border-color: #006aff;
+  border-radius: 3px;
+}
+
+#divStreamlinePayments button:hover {
+  background: #fff;
+  border-color: #006aff;
+  color: #006aff;
+}
+
+#divStreamlinePaymentsImg {
+  background-image: url(/images/undraw_personal_finance_tqcd-svg.jpg?68b3c88244e05fed76c7d8df0b9b264d);
   background-repeat: no-repeat;
   background-size: cover;
 }
