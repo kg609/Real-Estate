@@ -11560,9 +11560,19 @@ table {
   color: #006aff;
 }
 
+#divListYourProperty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#divListYourProperty p {
+  line-height: 1.5rem;
+}
+
 #divListYourProperty button {
   padding: 10px;
-  max-width: 150px;
+  max-width: 200px;
   width: 100%;
   color: #fff;
   background: #006aff;
@@ -11580,11 +11590,22 @@ table {
   background-image: url(/images/undraw_note_list_etto-svg.jpg?fb8cd740caedd483647ed61f77fb4cfa);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 45vh;
+}
+
+#divManageApplications {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#divManageApplications p {
+  line-height: 1.5rem;
 }
 
 #divManageApplications button {
   padding: 10px;
-  max-width: 150px;
+  max-width: 200px;
   width: 100%;
   color: #fff;
   background: #006aff;
@@ -11602,11 +11623,22 @@ table {
   background-image: url(/images/undraw_co-workers_ujs6-svg.jpg?6ffbe02033f7317bf059d39c32479358);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 45vh;
+}
+
+#divStreamlinePayments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#divStreamlinePayments p {
+  line-height: 1.5rem;
 }
 
 #divStreamlinePayments button {
   padding: 10px;
-  max-width: 150px;
+  max-width: 200px;
   width: 100%;
   color: #fff;
   background: #006aff;
@@ -11624,6 +11656,88 @@ table {
   background-image: url(/images/undraw_personal_finance_tqcd-svg.jpg?68b3c88244e05fed76c7d8df0b9b264d);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 45vh;
+}
+
+.promoImage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100vw;
+}
+
+.promoImage2 .overlay2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 40vh;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.promoImage2 h1 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.promoImage2 p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.promoImage2 .zillowBtn {
+  padding: 10px;
+  max-width: 250px;
+  width: 100%;
+  color: #fff;
+  background: #006aff;
+  border-color: #006aff;
+}
+
+.promoImage2 .zillowBtn:hover {
+  background: #fff;
+  border-color: #006aff;
+  color: #006aff;
+}
+
+#divStayInformed,
+#divHereToHelp {
+  margin-top: 50px;
+}
+
+#divStayInformed p,
+#divHereToHelp p {
+  line-height: 1.5rem;
+}
+
+#divStayInformed button,
+#divHereToHelp button {
+  padding: 10px;
+  max-width: 150px;
+  width: 100%;
+  color: #006aff;
+  background: #fff;
+  border-color: #006aff;
+  border-radius: 3px;
+}
+
+#divStayInformed button:hover,
+#divHereToHelp button:hover {
+  background: #006aff;
+  border-color: #006aff;
+  color: #fff;
 }
 
 /* For mobile phones: */
@@ -11637,6 +11751,16 @@ table {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #dddddd;
+  }
+
+  #navbarNav #leftNav,
+  #navbarNav #rightNav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navbarNav #logoContainer {
+    display: none;
   }
 
   .HomePageImgs .homeSearchContainer {
@@ -11694,6 +11818,16 @@ table {
   footer {
     height: 300px;
   }
+
+  .inverseRow {
+    flex-direction: column-reverse;
+  }
+
+  #divListYourPropertyImg,
+  #divManageApplicationsImg,
+  #divStreamlinePaymentsImg {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 630px) {
@@ -11735,5 +11869,9 @@ html {
 
 .row {
   margin: 0;
+}
+
+body {
+  font-family: Nunito, "Open Sans", Verdana, sans-serif;
 }
 
