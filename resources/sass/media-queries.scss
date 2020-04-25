@@ -9,6 +9,16 @@
             justify-content: space-between;
             border-bottom: 1px solid rgb(221, 221, 221);
         }
+
+        #leftNav, #rightNav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #logoContainer {
+            display: none;
+        }
+
     }
 
     .HomePageImgs {
@@ -78,6 +88,19 @@
     .footer-container, footer {
         height: 300px;
     }
+
+    .inverseRow {
+        flex-direction: column-reverse;
+    }
+
+    #divListYourPropertyImg,
+    #divManageApplicationsImg,
+    #divStreamlinePaymentsImg {
+        margin-top: 50px;
+    }
+
+
+
   }
   
   @media only screen and (max-width: 630px) {

@@ -1,0 +1,332 @@
+.img-container{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 98px;
+
+    img {
+        width: 100%;
+    }
+
+    .mobile-logo {
+        display: none;
+    }
+}
+
+#mainNav {
+    background: #fff;
+    display: flex;
+    
+    
+
+        li {
+            padding: 15px;
+            font-family: 'Lato', sans-serif;
+            font-size: 1rem;
+        }
+    
+        a {
+            text-decoration: none;
+            color: #4C4C4C;
+        }
+
+        a:hover {
+            color: #2D74DC;
+        }
+
+        #navbarNav {
+            justify-content: center;
+
+            .navbar-nav{
+                width: 100%;
+            }
+        }
+
+        #mobileLinks {
+            display: none;
+        }
+
+        #leftNav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #rightNav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+    .extra-links {
+        display: flex;
+        // margin-left: 70px;
+        // border: 1px solid red;
+
+
+        li {
+            padding: 16px 3px;
+            font-family: 'Lato', sans-serif;
+            font-size: 1rem;
+        }
+
+        li a {
+            color: #2D74DC;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #00C3FF;
+        }
+
+        .help-link {
+            margin-left: 30px;
+        }
+    }    
+
+
+#secondaryNav {
+    margin-bottom: 15px;
+    
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    .secondaryLeftMenu {
+        display: flex;
+    }
+
+    .secondaryRightMenu {
+        display: flex;
+
+        li .fa-bell {
+            padding-top: 5px;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.promoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);  /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+    h1 {
+        color: #fff;
+        font-size: 3.5rem;
+    }
+
+    p {
+        color: #fff;
+        font-size:  1.5rem;
+    }
+
+    .zillowBtn {
+        padding: 10px;
+        max-width: 250px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divListYourProperty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        line-height: 1.5rem;
+    }
+
+    button {
+        padding: 10px;
+        max-width: 200px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divListYourPropertyImg {
+    background-image: url('../images/undraw_note_list_etto-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+
+#divManageApplications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        line-height: 1.5rem;
+    }
+
+    button {
+        padding: 10px;
+        max-width: 200px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divManageApplicationsImg {
+    background-image: url('../images/undraw_co-workers_ujs6-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+#divStreamlinePayments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        line-height: 1.5rem;
+    }
+
+    button {
+        padding: 10px;
+        max-width: 200px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+       border-radius: 3px;
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divStreamlinePaymentsImg {
+    background-image: url('../images/undraw_personal_finance_tqcd-svg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.promoImage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100vw;
+
+.overlay2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.5);  /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+    h1 {
+        color: #fff;
+        font-size: 3.5rem;
+    }
+
+    p {
+        color: #fff;
+        font-size:  1.5rem;
+    }
+
+    .zillowBtn {
+        padding: 10px;
+        max-width: 250px;
+        width: 100%;
+       color: #fff;
+       background: rgb(0, 106, 255);
+       border-color: rgb(0, 106, 255);
+        &:hover {
+            background: #fff;
+            border-color:rgb(0, 106, 255);
+            color: rgb(0, 106, 255);
+        }
+    }
+}
+
+#divStayInformed, 
+    #divHereToHelp {
+        margin-top: 50px;
+
+        p {
+            line-height: 1.5rem;
+        }
+
+        button {
+            padding: 10px;
+            max-width: 150px;
+            width: 100%;
+            color:  rgb(0, 106, 255);
+            background: #fff;
+            border-color: rgb(0, 106, 255);
+            border-radius: 3px;
+        &:hover {
+            background: rgb(0, 106, 255);
+            border-color:rgb(0, 106, 255);
+            color: #fff;
+        }
+        }
+    }
+

@@ -18,6 +18,9 @@
 @import '../sass/card.scss';
 @import '../sass/info-list.scss';
 @import '../sass/footer.scss';
+
+@import '../sass/manage-rentals-nav.scss';
+
 @import '../sass/media-queries.scss';
 
 html {
@@ -35,4 +38,12 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+.row {
+    margin: 0;
+}
+
+body {
+    font-family: Nunito, 'Open Sans', Verdana, sans-serif;
 }
