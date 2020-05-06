@@ -39,7 +39,7 @@
                         </div>
                         <div id="rightNav">
                             <li>
-                                <a class="" href="zillowhome">Go To Zillow</a>
+                                <a class="" href="/zillow">Go To Zillow</a>
                             </li>
                     </div>
                     </ul>
@@ -52,7 +52,7 @@
                 <ul>
                     <div class="secondaryLeftMenu">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">My Properties</a>
+                            <a class="nav-link" href="/manage-properties">My Properties</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Messages</a>
