@@ -82,7 +82,10 @@
     
     <div class="container">
         <div class="row">
-            <h1>Mangage Properties</h1>
+            <h1>My Properties</h1>
+            <a href="#" style="margin-top: 15px; margin-left: 20px; text-decoration: none;" data-toggle="modal" data-target="#divAddPropertyModal">+ Add a property</a>
+        </div>
+        <div id="addPropertyForm">
         </div>
     </div>
 
