@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function Example() {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <Navbar />
             <SearchBar />
             <Banner />

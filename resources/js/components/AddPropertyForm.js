@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function AddPropertyForm() {
     return (
         <div className="container">
-            <form>
+            <form action="ManagePropertiesController.php" method="post" >
                 {/* <!-- Modal --> */}
                 <div className="modal fade" id="divAddPropertyModal" tabindex="-1" role="dialog" aria-labelledby="divAddPropertyModalTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
@@ -27,10 +27,17 @@ function AddPropertyForm() {
 
                             <div className="form-group">
                                 <label className="mb-2">
-                                    Unit Number                                   
+                                    Price                              
                                 </label>
                                 <input type="number" className="form-control form-control-lg"  />
-                            </div>             
+                            </div>  
+
+                            <div className="form-group">
+                                <label className="mb-2">
+                                    Zip code                             
+                                </label>
+                                <input type="number" className="form-control form-control-lg"  />
+                            </div>            
 
                             <div className="form-group">
                                 <label className="mb-2">
@@ -48,6 +55,7 @@ function AddPropertyForm() {
                     <div className="modal-footer">
                         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="button" className="btn btn-primary">Save changes</button>
+                        <button type="submit" className="btn btn-danger">Submit</button>
                     </div>
                     </div>
                 </div>

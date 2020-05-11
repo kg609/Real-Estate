@@ -11854,8 +11854,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
   padding: 0;
+  margin: 0;
 }
 
 .HomePageImgs {
