@@ -90,17 +90,59 @@
         <div class="row">
             <div>
             <div id="infoCard" class="row">
-                <section class="col-md-4 col-sm-12">
+                <section class="col">
                     <div class="card">
-                    <img src="{{ $homesList->imageUrl }} " alt="Image of a House" style="width: 100%" />
-                        <div class="card-body">
-                            <h3 class="card-title" style="font-size: 25px; font-weight: bold; margin-bottom: 0;"> {{$homesList->address}} </h3>
-                            <p>{{$homesList->zipcode}}</p>
-                            <p> Find your place with an immersice photo experience and the most
-                                listings, including things you won't find anywhere else. </p>
-                                <br />
-                                <a  id="cardBtn" href="#" class="btn btn-light" >
-                                Search homes
+                        <div class="m-3 border" style="border-bottom: 4px solid #006aff !important;">
+                            <img src="{{ $homesList->imageUrl }} " alt="Image of a House" class=" img-fluid" />
+                            <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{$homesList->address}} </h3>
+                            <p class="p-1 mb-1"> {{$homesList->city}}, {{$homesList->zipcode}} </p>
+                        </div>
+                        <div class="card-body pt-2 pb-2">                                                     
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="">Applications</strong>
+                                <p class="mt-1">Screen Tenants online</p>                               
+                            </a>
+                            <hr />
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="mb-2">Leases</strong>
+                                <p class="mt-1">Create or upload your own lease</p>                               
+                            </a>
+                            <hr />
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="mb-2">Payments</strong>
+                                <p class="mt-1">Set up online payments</p>                               
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="col">
+                    <div class="card">
+                        <div class="m-3 border" style="border-bottom: 4px solid #006aff !important;">
+                            <img src="{{ $homesList->imageUrl }} " alt="Image of a House" class=" img-fluid" />
+                            <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{$homesList->address}} </h3>
+                            <p class="p-1 mb-1"> {{$homesList->city}}, {{$homesList->zipcode}} </p>
+                        </div>
+                        <div class="card-body pt-2 pb-2">                                                     
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="">Applications</strong>
+                                <p class="mt-1">Screen Tenants online</p>                               
+                            </a>
+                            <hr />
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="mb-2">Leases</strong>
+                                <p class="mt-1">Create or upload your own lease</p>                               
+                            </a>
+                            <hr />
+                            <a class="">
+                                <i class="fa fa-chevron-right float-right"></i>
+                                <strong class="mb-2">Payments</strong>
+                                <p class="mt-1">Set up online payments</p>                               
                             </a>
                         </div>
                     </div>

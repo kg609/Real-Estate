@@ -7,7 +7,7 @@ function AddPropertyForm() {
         <div className="container">
             <form action="ManagePropertiesController.php" method="post" >
                 {/* <!-- Modal --> */}
-                <div className="modal fade" id="divAddPropertyModal" tabindex="-1" role="dialog" aria-labelledby="divAddPropertyModalTitle" aria-hidden="true">
+                <div className="modal fade" id="divAddPropertyModal" role="dialog" aria-labelledby="divAddPropertyModalTitle" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                     <div className="modal-header">
@@ -31,6 +31,23 @@ function AddPropertyForm() {
                                 </label>
                                 <input type="number" className="form-control form-control-lg"  />
                             </div>  
+
+                            <div className="form-group">
+                                <label className="mb-2">
+                                    State
+                                </label>
+                                <select className="form-control form-control-lg"  >
+                                    <option>Please select a state</option>
+                                    <option>NC</option>
+                                </select>
+                            </div>
+
+                            <div className="form-group">
+                                <label className="mb-2">
+                                    City                             
+                                </label>
+                                <input type="text" className="form-control form-control-lg"  />
+                            </div>
 
                             <div className="form-group">
                                 <label className="mb-2">

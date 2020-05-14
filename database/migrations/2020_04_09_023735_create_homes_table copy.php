@@ -13,7 +13,7 @@ class CreateHomesTable extends Migration
      */
     public function up()
     {
-        Schema::create('homes', function (Blueprint $table) {
+        Schema::table('homes', function (Blueprint $table) {
             $table->id();
             $table->string('type');
             $table->string('address');
@@ -32,8 +32,10 @@ class CreateHomesTable extends Migration
      */
     public function down()
     {
-        // Schema::dropIfExists('homes');
-        // Schema::drop('price');
-        // Schema::drop('zipcode');
+        Schema::table('homes', function (Blueprint $table){
+            Schema::dropIfExists('homes');
+            // Schema::drop('price');
+            // Schema::drop('zipcode');
+        });
     }
 }

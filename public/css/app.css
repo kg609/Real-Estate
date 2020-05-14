@@ -10914,12 +10914,10 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
 var,
-b,
 u,
 i,
 center,
@@ -11738,6 +11736,10 @@ table {
   background: #006aff;
   border-color: #006aff;
   color: #fff;
+}
+
+.fa-chevron-right {
+  color: #006aff;
 }
 
 /* For mobile phones: */
