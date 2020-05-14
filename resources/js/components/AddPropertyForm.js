@@ -44,7 +44,7 @@ function AddPropertyForm() {
                                     Property type
                                 </label>
                                 <select className="form-control form-control-lg"  >
-                                    <option>Please select</option>
+                                    <option>Please select a property type</option>
                                     <option>House</option>
                                     <option>Condo / Apartment Unit</option>
                                     <option>Townhouse</option>
