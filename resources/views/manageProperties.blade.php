@@ -87,6 +87,26 @@
         </div>
         <div id="addPropertyForm">
         </div>
+        <div class="row">
+            <div>
+            <div id="infoCard" class="row">
+                <section class="col-md-4 col-sm-12">
+                    <div class="card">
+                    <img src="{{ $homesList->imageUrl }} " alt="Image of a House" style="width: 100%" />
+                        <div class="card-body">
+                            <h3 class="card-title" style="font-size: 25px; font-weight: bold; margin-bottom: 0;"> {{$homesList->address}} </h3>
+                            <p>{{$homesList->zipcode}}</p>
+                            <p> Find your place with an immersice photo experience and the most
+                                listings, including things you won't find anywhere else. </p>
+                                <br />
+                                <a  id="cardBtn" href="#" class="btn btn-light" >
+                                Search homes
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </div>
 
      <script src="/js/app.js"></script>
