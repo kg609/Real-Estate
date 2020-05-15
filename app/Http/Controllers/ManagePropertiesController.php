@@ -10,8 +10,12 @@ class ManagePropertiesController extends Controller
     
     public function show()
     {
-        $homesList = DB::table('homes')->first();
-
+        $homesList = DB::table('homes')->get();
+        
+        if(! $homesList) {
+            abort(404);
+        }
+        // $homesList = array($homesList);
         // dd($homesList);
 
         return view('manageProperties', [

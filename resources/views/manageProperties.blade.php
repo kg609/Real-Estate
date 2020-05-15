@@ -90,12 +90,13 @@
         <div class="row">
             <div>
             <div id="infoCard" class="row">
+            @foreach ($homesList as $home)
                 <section class="col">
                     <div class="card">
                         <div class="m-3 border" style="border-bottom: 4px solid #006aff !important;">
-                            <img src="{{ $homesList->imageUrl }} " alt="Image of a House" class=" img-fluid" />
-                            <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{$homesList->address}} </h3>
-                            <p class="p-1 mb-1"> {{$homesList->city}}, {{$homesList->zipcode}} </p>
+                            <img src="{{ $home->imageUrl }}" alt="Image of a House" class=" img-fluid" />
+                            <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{ $home->address }} </h3>
+                            <p class="p-1 mb-1"> {{ $home->city }}, {{ $home->zipcode }} </p>
                         </div>
                         <div class="card-body pt-2 pb-2">                                                     
                             <a class="">
@@ -119,34 +120,8 @@
                     </div>
                 </section>
                 
-                <section class="col">
-                    <div class="card">
-                        <div class="m-3 border" style="border-bottom: 4px solid #006aff !important;">
-                            <img src="{{ $homesList->imageUrl }} " alt="Image of a House" class=" img-fluid" />
-                            <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{$homesList->address}} </h3>
-                            <p class="p-1 mb-1"> {{$homesList->city}}, {{$homesList->zipcode}} </p>
-                        </div>
-                        <div class="card-body pt-2 pb-2">                                                     
-                            <a class="">
-                                <i class="fa fa-chevron-right float-right"></i>
-                                <strong class="">Applications</strong>
-                                <p class="mt-1">Screen Tenants online</p>                               
-                            </a>
-                            <hr />
-                            <a class="">
-                                <i class="fa fa-chevron-right float-right"></i>
-                                <strong class="mb-2">Leases</strong>
-                                <p class="mt-1">Create or upload your own lease</p>                               
-                            </a>
-                            <hr />
-                            <a class="">
-                                <i class="fa fa-chevron-right float-right"></i>
-                                <strong class="mb-2">Payments</strong>
-                                <p class="mt-1">Set up online payments</p>                               
-                            </a>
-                        </div>
-                    </div>
-                </section>
+                @endforeach
+                
             </div>
         </div>
     </div>

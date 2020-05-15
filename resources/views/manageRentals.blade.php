@@ -84,7 +84,7 @@
              <div class="overlay">
                 <h1>Zillow Rental Manager</h2>
                 <p>The simplest way to manage your rental</p>
-                <button class="zillowBtn">View your properties</button>
+                <a href="/manage-properties" class="zillowBtn">View your properties</a>
             </div>
          </div>
     </div>
