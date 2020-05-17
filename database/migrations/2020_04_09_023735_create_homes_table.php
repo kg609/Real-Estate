@@ -13,7 +13,7 @@ class CreateHomesTable extends Migration
      */
     public function up()
     {
-        Schema::table('homes', function (Blueprint $table) {
+        Schema::create('homes', function (Blueprint $table) {
             $table->id();
             $table->string('type');
             $table->string('address');
