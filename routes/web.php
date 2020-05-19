@@ -29,3 +29,5 @@ Route::get('/manage-rentals',  'ManageRentalsController@show')->name('manageRent
 
 // Zillow property management page route
 Route::get('/manage-properties',  'ManagePropertiesController@show')->name('manageProperties');
+
+Route::post('/manage-properties',  'ManagePropertiesController@addNewProperty')->name('manageProperties');

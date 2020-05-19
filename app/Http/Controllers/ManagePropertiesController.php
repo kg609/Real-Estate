@@ -22,4 +22,10 @@ class ManagePropertiesController extends Controller
             'homesList' => $homesList
         ]);
     }
+
+    public function addNewProperty(Request $request) {
+        $input = $request->all();
+
+        echo "This function will add new properties to the db";
+    }
 }

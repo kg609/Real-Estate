@@ -72,7 +72,7 @@
                             <i class="far fa-bell"></i>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign Out</a>
+                            <a class="nav-link" href="/login">Sign Out</a>
                         </li>
                     </div>
                 </ul>  
