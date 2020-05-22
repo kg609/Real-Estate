@@ -86,6 +86,82 @@
             <a href="#" style="margin-top: 15px; margin-left: 20px; text-decoration: none;" data-toggle="modal" data-target="#divAddPropertyModal">+ Add a property</a>
         </div>
         <div id="addPropertyForm">
+            
+            <form action="/manage-properties" method="POST" >
+                @csrf
+
+                <!-- Modal --> 
+                <div class="modal fade" id="divAddPropertyModal" aria-labelledby="divAddPropertyModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" >
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title m-auto" id="divAddPropertyModalTitle">Add a property</h4>
+                        <button  style=margin: "0", padding: "0" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    <h4 class="mt-4  mb-4">Please provide your property's info.</h4>
+                            <div class="form-group">
+                                <label class="mb-2" for="propertyAddress">
+                                    Property address
+                                </label>
+                                <input id="propertyAddress" name="propertyAddress" type="text" class="form-control form-control-lg"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="mb-2" for="price">
+                                    Price                              
+                                </label>
+                                <input id="propertyPrice" name="price" type="number" class="form-control form-control-lg"  />
+                            </div>  
+
+                            <div class="form-group">
+                                <label class="mb-2" for="propertyState">
+                                    State
+                                </label>
+                                <select id="propertyState" name="propertyState" class="form-control form-control-lg"   >
+                                    <option>Please select a state</option>
+                                    <option>NC</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="mb-2" for="city">
+                                    City                             
+                                </label>
+                                <input id="propertyCity"  name="city" type="text" class="form-control form-control-lg"  />
+                            </div>
+
+                            <div class="form-group">
+                                <label class="mb-2" for="zipcode">
+                                    Zip code                             
+                                </label>
+                                <input type="number" name="zipcode" class="form-control form-control-lg"    />
+                            </div>            
+
+                            <div class="form-group">
+                                <label class="mb-2" for="propertyType">
+                                    Property type
+                                </label>
+                                <select id="propertyType" name="propertyType" class="form-control form-control-lg"  >
+                                    <option>Please select a property type</option>
+                                    <option>House</option>
+                                    <option>Condo / Apartment Unit</option>
+                                    <option>Townhouse</option>
+                                    <option>Entire Apartment Community</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="submit" class="btn btn-danger" >Submit</button>
+                    </div>
+                    </div>
+                </div>
+                </div>               
+            </form>
         </div>
         <div class="row">
             <div>
@@ -124,6 +200,7 @@
                 
             </div>
         </div>
+
     </div>
 
      <script src="/js/app.js"></script>

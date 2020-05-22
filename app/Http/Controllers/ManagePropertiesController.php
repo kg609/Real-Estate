@@ -23,9 +23,11 @@ class ManagePropertiesController extends Controller
         ]);
     }
 
-    public function addNewProperty(Request $request) {
-        $input = $request->all();
-
-        echo "This function will add new properties to the db";
+    public function store() 
+    {
+        // persist the new property data
+        dump(request()->all());
     }
+
+    
 }
