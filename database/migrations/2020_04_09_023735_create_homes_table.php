@@ -19,7 +19,7 @@ class CreateHomesTable extends Migration
             $table->string('address');
             $table->float('price', 8, 2);
             $table->integer('zipcode');
-            $table->string('imageUrl');
+            $table->string('imageUrl')->default("");
             $table->timestamps();
         });
     }

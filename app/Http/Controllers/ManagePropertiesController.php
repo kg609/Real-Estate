@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use App\Home;
 
 class ManagePropertiesController extends Controller
 {
@@ -26,7 +27,22 @@ class ManagePropertiesController extends Controller
     public function store() 
     {
         // persist the new property data
-        dump(request()->all());
+        
+        // clean up
+        $home = new Home();
+        $home->address = request("propertyAddress");
+        $home->price = request("price");
+        $home->state = request("propertyState");
+        $home->city = request("city");
+        $home->zipcode = request("zipcode");
+        $home->type = request("propertyType");
+
+        $home->save();
+
+         // dump(request()->all());
+
+        return redirect("/manage-properties");
+        
     }
 
     
