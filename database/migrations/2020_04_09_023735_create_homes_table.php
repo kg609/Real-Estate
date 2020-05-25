@@ -32,10 +32,8 @@ class CreateHomesTable extends Migration
      */
     public function down()
     {
-        Schema::table('homes', function (Blueprint $table){
-            Schema::dropIfExists('homes');
-            // Schema::drop('price');
-            // Schema::drop('zipcode');
-        });
+        Schema::dropIfExists('homes');
+        // Schema::drop('price');
+        // Schema::drop('zipcode');
     }
 }
