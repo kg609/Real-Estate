@@ -148,6 +148,7 @@
        color: #fff;
        background: rgb(0, 106, 255);
        border-color: rgb(0, 106, 255);
+       text-decoration: none;
         &:hover {
             background: #fff;
             border-color:rgb(0, 106, 255);
@@ -326,5 +327,9 @@
             color: #fff;
         }
         }
+    }
+
+    .fa-chevron-right {
+        color: #006aff;
     }
 
