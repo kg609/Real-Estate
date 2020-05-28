@@ -170,7 +170,17 @@
                 <section class="col">
                     <div class="card">
                         <div class="m-3 border" style="border-bottom: 4px solid #006aff !important;">
-                            <img src="{{ $home->imageUrl }}" alt="Image of a House" class=" img-fluid" />
+                            @if ($home->imageUrl  == "")
+                                <a href="#">
+                                    <img src="https://iliveinaterminal.com/wp-content/uploads/2019/08/undraw_business_shop_qw5t-1024x793.png" alt="Image of a House" class=" img-fluid" />
+                                    <hr />
+                                </a>
+                            @else
+                                <a href="#">
+                                    <img src="{{ $home->imageUrl }}" alt="Image of a House" class=" img-fluid" />
+                                    <hr />
+                                </a>
+                            @endif
                             <h3 class="card-title p-1 mb-0" style="font-size: 25px; font-weight: bold;"> {{ $home->address }} </h3>
                             <p class="p-1 mb-1"> {{ $home->city }}, {{ $home->zipcode }} </p>
                         </div>
