@@ -25,7 +25,7 @@
                             </li>
                             <div style="">
                                 <li>
-                                    <a href="#" style="">Sign Out</a>
+                                    <a href="/login" style="">Sign Out</a>
                                 </li>
                             </div>                            
                         </div>
